@@ -1,0 +1,42 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align- items: center;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    margin: 100px;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .containerbutton {
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .button {
+    height: 50px;
+    width: 100px;
+  }
+
+  .excluir {
+    height: 30px;
+    width: 400px;
+  }
+  
+  span {
+    position: absolute;
+    right: -8px;
+    top: -17px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+  }
